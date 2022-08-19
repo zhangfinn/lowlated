@@ -1,0 +1,103 @@
+! minireset.css v0.0.6|MIT License|github.com/jgthms/minireset.css html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+#root,
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.main {
+  padding: 30px;
+  overflow: auto;
+  background-size: 15px 15px, 15px 15px;
+  background-image: linear-gradient(#18181c 14px, transparent 0),
+    linear-gradient(90deg, transparent 14px, #86909c 0);
+}
+.ant-layout-header {
+  border-bottom: solid 1px rgba(255, 255, 255, 0.09);
+}
